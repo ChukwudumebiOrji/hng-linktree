@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "./Link"
+// import { Link } from "react-router-dom"
 
 const linksData = [
   {
@@ -36,6 +37,7 @@ const Links = () => {
         {linksData.map((link, i) => {
           return <Link key={i} {...link} />
         })}
+        <Link url="/contact" name={"Contact Me"}></Link>
       </ul>
       <section className="img__links">
         <a>
