@@ -150,6 +150,14 @@ export const ContactPage = () => {
           </button>
         </form>
       </div>
+      <footer className="footer">
+        <hr />
+        <div>
+          <img src="/img/zuri-logo.svg" />
+          <p>HNG Internship 9 Frontend Task</p>
+          <img src="/img/I4G.png" />
+        </div>
+      </footer>
     </section>
   )
 }
