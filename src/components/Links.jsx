@@ -37,7 +37,7 @@ const Links = () => {
         {linksData.map((link, i) => {
           return <Link key={i} {...link} />
         })}
-        <Link url="/contact" name={"Contact Me"}></Link>
+        <Link url="/contact" name={"Contact Me"} id="contact"></Link>
       </ul>
       <section className="img__links">
         <a>
